@@ -1,0 +1,19 @@
+.card {
+  height: 100%;
+  width: 50%;/* pegou o mesmo tamanho dos outro cards */
+
+  background: #3b02d7;
+  color: rgb(7, 6, 6);
+
+  border-radius: 5px;/* aredondar as bordas */
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;/* tamanho da caixinha */
+}
+
+.card strong {
+  font-size: 20px;
+}
