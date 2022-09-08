@@ -1,0 +1,10 @@
+/* removendo estilizações padroes */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* esse arquivo vai ser importado no nosso caso lá no index.js */
+
+
+
