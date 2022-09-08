@@ -2,9 +2,15 @@
 *{
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box;/* fax conque o navegador não calcule altura do elementos e somando tudo bordas e tamanho ele respeita as borad que a gente definir */
 }
 /* esse arquivo vai ser importado no nosso caso lá no index.js */
 
+body,
+input,
+button {
+    font-size: 16px;
+    font-family: 'Combo', cursive;/* tanto esse code quanto o do html foram tirados do google fonts */
+}
 
 
